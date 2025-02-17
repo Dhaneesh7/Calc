@@ -1,3 +1,7 @@
 
 const preValfn= (value)=>({
-  type:value
+  type:'preval',
+  payload:value,
+});
+export {preValfn,preval};
+
